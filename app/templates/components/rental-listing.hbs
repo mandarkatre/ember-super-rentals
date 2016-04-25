@@ -1,0 +1,11 @@
+<h2>{{#link-to "rentals.rental" rental}}{{rental.title}}{{/link-to}}</h2>
+<p>Owner: {{rental.owner}}</p>
+<p>Type: {{rental-property-type rental.type}} - {{rental.type}}</p>
+<p>Location: {{rental.city}}</p>
+<p>Number of bedrooms: {{rental.bedrooms}}</p>
+{{#if isImageShowing }}
+  <p><img src={{rental.image}} alt={{rental.type}} width="500px"></p>
+  <button class="btn btn-primary" {{action "imageHide"}}>Hide image</button>
+{{else}}
+  <button class="btn btn-primary" {{action "imageShow"}}>Show image</button>
+{{/if}}
