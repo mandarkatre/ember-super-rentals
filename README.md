@@ -1,7 +1,6 @@
 # Super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a basic application created using Ember.js. It shows how to consume REST endpoints created in node (refer https://github.com/mandarkatre/RESTNodeAPI to set up the node server to fetch the data) or alternatively use mock data from ember-mirage or a fixture. It also demonstrates nested-routes.
 
 ## Prerequisites
 
@@ -11,7 +10,7 @@ You will need the following things properly installed on your computer.
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [PhantomJS](http://phantomjs.org/) (optional)
 
 ## Installation
 
